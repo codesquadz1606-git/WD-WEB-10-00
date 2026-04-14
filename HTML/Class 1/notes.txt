@@ -1,0 +1,32 @@
+Chapter 1: Introduction to HTML
+HTML is a Hypertext Markup Language , which is used to create the structure of a webpage.
+
+Shift + 1 : Boilerplate
+
+Why do we use meta tag?
+--> Meta tag is used to encode the HTML to Browser.
+--> Meta tag is used for SEO (Search Engine Optimisation)
+--> Meta tag is used for responsive code.
+
+Chapter 2 : Heading Tags , Break Tags , Media Tags
+
+For Comment : Ctrl+/
+
+Topic 1: Heading Tags
+6 types of headings
+h1------------h6
+
+Topic 2: Break Tags
+br tag & hr tag
+br tag means breaks the line
+hr tag means draw the horizontal line.
+
+Topic 3 : Media Tags
+What is Media tag?
+Media tag means display the image , audio & video on our webpage.
+
+--> img
+--> audio
+--> video
+
+Note : Here we have to store our asset near our HTML file.
