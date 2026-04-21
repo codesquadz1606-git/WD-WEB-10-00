@@ -1,32 +1,35 @@
-Chapter 1: Introduction to HTML
-HTML is a Hypertext Markup Language , which is used to create the structure of a webpage.
+Chapter 1: Introduction to HTML.
+.html is the extention of html file.
 
-Shift + 1 : Boilerplate
+What is meta tag?
+--> "UTF-8" it is used to encode our HTML to the browser 
+--> For SEO (Search Engine Optimisation)
+--> For creating responsive websites
 
-Why do we use meta tag?
---> Meta tag is used to encode the HTML to Browser.
---> Meta tag is used for SEO (Search Engine Optimisation)
---> Meta tag is used for responsive code.
+How we can add an icon in our webpage title?
+For that we use <link> tag.
 
-Chapter 2 : Heading Tags , Break Tags , Media Tags
+Chapter 2: Heading Tag , Media Tag & Break Tag.
+What is Heading Tag?
+Heading tags are of 6 types:
+h1,h2,h3,h4,h5,h6
 
-For Comment : Ctrl+/
+What is Media Tag?
+It means I have to display any type of multimedia on our webpage.
 
-Topic 1: Heading Tags
-6 types of headings
-h1------------h6
+Note : Always store your asset near your html file.
 
-Topic 2: Break Tags
-br tag & hr tag
-br tag means breaks the line
-hr tag means draw the horizontal line.
+3 types:
+i. img tag 
+    a. src : It means where file is placed
+    b. alt : If file is not visible , it will display.
+ii. audio tag
+    a. src 
+    b. controls : Mandatory to use.
+iii. video tag
+    a. src
+    b. controls : Mandatory to use.
 
-Topic 3 : Media Tags
-What is Media tag?
-Media tag means display the image , audio & video on our webpage.
-
---> img
---> audio
---> video
-
-Note : Here we have to store our asset near our HTML file.
+What is break tags?
+br tag : For breaking up the line.
+hr tag : Draw the horizontal line.
