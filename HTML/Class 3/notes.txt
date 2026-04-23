@@ -1,0 +1,17 @@
+What is table tag?
+Table is the combination of rows & columns.
+
+table tag
+    tr tag (table row)
+        td/th tag (table data/head)
+
+Table Properties
+i. border : it applies the border in our table.
+ii. cellspacing : space b/w outer cell & inner cell.
+iii. cellpadding : space b/w cell & content.
+
+Row & column Properties
+i. bgcolor: It adds the background color in certain row or column.
+
+Row Merge (vertical merge) : rowspan
+Column Merge (horizontal merge) : colspan
