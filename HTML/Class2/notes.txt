@@ -1,0 +1,21 @@
+Chapter 3 : Linking , Iframe Tags
+What is linking?
+It means we are linkimg any url or our any internal page.
+a tag : anchor tag
+    a. href
+    b. target :"_blank" as it opens the webpage on new tab.
+
+../: for backward
+
+What is Iframe Tag?
+It opens up the window on the same page.
+
+Chapter 4 : What is List?
+List are of two types:
+--> Ordered List
+    i. It is denoted by ol
+    ii. 1,A,a,i,I
+    iii. list is denoted by li tag.
+--> Unordered List
+    i. It is denoted by ul.
+    ii. square,circle, disc
