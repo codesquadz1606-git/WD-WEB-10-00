@@ -1,0 +1,15 @@
+What is form?
+Here we will see the structure of form.
+
+form tag
+    input , label , select, option , textarea.
+
+
+placeholder : Here we add a text on input.
+
+What is for attribute in label tag?
+to connect label & input tag.
+
+In radio type it selects both , to select any one at a time , we add an attribute i.e name and value must be same.
+
+For drop-down we use select tag --> option tag.
