@@ -1,0 +1,13 @@
+What is Semantic Tags?
+b tag : bold,
+i tag : italic,
+u tag : underline,
+strong tag : bold,
+sup tag : superscript,
+sub tag : subscript,
+pre tag : preformatted tag
+
+
+dl
+    dt
+        dd
