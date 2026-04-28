@@ -1,0 +1,9 @@
+CSS Stands for Cascading Stylesheet.
+Css is used to style of web page.
+
+Css are of three types:
+i. Inline : In this we write css in particular tag using style attribute.
+
+ii. Internal : In this we write css in our existing html file using style tag.
+
+iii. External : In this we have to make a new file of css (.css) and have to connect with our HTML file.
