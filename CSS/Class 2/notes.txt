@@ -1,0 +1,20 @@
+Topic 1 : Selectors of CSS
+Their are four type of selectors:
+i. id is used for unique elements, It is used only once. Id is denoted by #.
+
+ii. class is used for multiple time use, It is denoted by .(dot)
+
+iii. tag , in this if we apply css on any tag it will be applicable on all the similar tags.
+
+iv. universal it is applied on whole body, It is denoted by *.
+
+Topic 2 : What is borders?
+border-width , border-style , border-color : Shorthand : border : width style color;
+
+border-radius : for corner curveness.
+
+
+Topic 3 : Box Model 
+Padding : It means the space that comes from inside the border.
+
+Margin : It means the space that comes from outside the border.
