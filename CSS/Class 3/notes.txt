@@ -1,0 +1,20 @@
+Topic 1: Type of displays
+Displays are of 5 types: 
+Inline,Block,Inline-Block,Flex,Grid
+
+Topic 2: Type of Positions
+5 Type of positions:
+
+i. Static : The default position of any object.In this position we cannot move any object.
+
+ii. Absolute : In this it moves from his parent space and leave his space.
+
+iii. Relative : In this it moves from its own space and do not leave his space.
+
+iv. Fixed : In this it leaves his space and fix at one place.
+
+v. Sticky : It will get stick at one place but do not leave his space.
+
+Topic 3: Hover & Transitions
+Hover property : pseudo class
+Transition : It means going from one property to anthor which takes some time.
