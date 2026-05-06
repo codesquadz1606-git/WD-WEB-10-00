@@ -1,0 +1,11 @@
+What is Flex?
+Flex is used to wrap all the elements in row or column.
+Used for responsive design.
+Applied to the parent class.
+
+As soon as we used flex, their are some property that are unlocked:
+i. gap
+ii. justify-content
+iii. flex-properties....
+    a. flex-direction
+    b. flex-wrap
