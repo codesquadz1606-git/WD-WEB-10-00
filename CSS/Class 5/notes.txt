@@ -1,0 +1,15 @@
+animation : 
+    i. name
+    ii. property
+    iii. timing-function
+    iv. delay
+    v. duration
+    vi. iteration-count
+
+What is keyFrames?
+It means our pages is divided into the multiple frames.
+
+Transform: It basically tranform any object in multiple formats:
+    i. skew
+    ii. matrix
+    iii. rotate 

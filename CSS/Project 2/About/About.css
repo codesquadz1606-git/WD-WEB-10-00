@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* HEADER CSS  */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.box{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+}
+
+.navigation ul{
+    display: flex;
+    gap: 30px;
+}
+
+.navigation ul li{
+    list-style: none;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
+}
+
+.navigation ul li a:hover{
+    color: blue;
+}
+
+/* MAIN SECTION CSS */
+
+main{
+    width: 100%;
+    height: 800px;
+    display: flex;
+}
+
+.main-left{
+    width: 37%;
+    height: 800px;
+    background-color: #E6DACE;
+}
+
+.profile-box{
+    width: 400px;
+    height: 450px;
+    background-color: #F4ECE6;
+    margin-top: 100px;
+    margin-left: 120px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img-box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    background-image: url(../assets/instagram.png);
+    background-size: contain;
+}
+
+.line{
+    width: 70px;
+    height: 2px ;
+    background-color: blue;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center
+
+}
+
+.job-title{
+    font-size: 1.2rem;
+    letter-spacing: 7px;
+}
+
+.icon-box{
+    width: 400px;
+    height: 60px;
+    background-color: white;
+    margin-left: 120px;
+}
+
+.icon-box{
+    display: flex;
+    justify-content: center;
+}
+
+.icon-box a img{
+    width: 25px;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.main-right{
+    width: 63%;
+    height: 800px;
+}
+
+.content{
+    margin-top: 120px;
+    margin-left: 70px;
+}
+
+/* FOOTER CSS */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.right-footer{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.call,.write,.follow{
+    text-align: center;
+}
