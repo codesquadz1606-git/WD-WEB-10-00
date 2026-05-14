@@ -1,0 +1,36 @@
+What is Javascript?
+Js is both programming & scripting language.
+
+In 1995 it was used to only design the UI & browser.
+
+But nowdays , JS is used in multiple format:
+i . Building backend (Node)
+ii . Building mobile applications (React Native)
+iii . Building Desktop Apps. (Electron)
+iv . OOPS also supports.
+
+Js is high level interpreted language.
+
+JS are of three types:
+i. Inline JS : It means writing JS in a HTML tag
+ii. Internal JS : Adding JS within the HTML file
+iii. External JS : Creating an external file for the JS & linking it.
+
+Chapter 2: Variables, Keywords Data-type & Template Literals
+What is variables?
+Variable are the container that stores some value at the memory(RAM).
+
+Three type of keywords:
+let var const
+
+Interview Question 1: Diffrence b/w let var & const.
+
+What is Data Types?
+Identify that which type of value is stored in a variable.
+Number: int & float
+String : Any character in "" is string.
+Boolean : True or False
+undefined : Not yet defined
+null : It is an object
+
+Template Literals : `Sentence ${variable}`
