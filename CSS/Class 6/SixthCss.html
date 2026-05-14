@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #box1{
+        background-color: green;
+        padding:40px;
+        text-align: center;
+        display:none;
+    }
+    #box2{
+        background-color: yellow;
+        padding:40px;
+        text-align: center;
+        display:none;
+    }
+    #box3{
+        background-color: red;
+        padding:40px;
+        text-align: center;
+        display:none;
+    }
+    #box4{
+        background-color: blue;
+        padding:40px;
+        text-align: center;
+        display:none;
+    }
+
+    @media (min-width:1440px) {
+        #box1{
+            display: block;
+        }
+    }
+
+    @media (min-width:1280px) and (max-width:1439px){
+        #box2{
+            display: block;
+        }
+    }
+
+    @media (min-width:900px) and (max-width:1279px) {
+        #box3{
+            display: block;
+        }
+    }
+
+    @media (min-width:500px) and (max-width:899px){
+        #box4{
+            display: block;
+        }
+    }
+
+    @media (max-width:499px){
+        #box1,#box2,#box3,#box4{
+            display: block;
+        }
+    }
+
+    .screen-1{
+        display: none;
+    }
+
+    .content-s1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .content-s1 .navigation ul{
+        display: flex;
+        gap: 40px;
+    }
+
+    .content-s1 .navigation ul li{
+        list-style: none;
+    }
+
+    .contact{
+        display: flex;
+        gap: 30px;
+    }
+
+    .content-s2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    @media (min-width:1050px) {
+        .screen-1{
+            display: block;
+        }
+
+        .screen-2{
+            display: none;
+        }
+    }
+
+    @media (max-width:1049px) {
+        .screen-1{
+            display: none;
+        }
+
+        .screen-2{
+            display: block;
+        }
+
+        .contact{
+            gap: 10px;
+        }
+    }
+</style>
+<body>
+    <!-- <div id="box1">This is Box 1</div>
+    <div id="box2">This is Box 2</div>
+    <div id="box3">This is Box 3</div>
+    <div id="box4">This is Box 4</div> -->
+
+    <header>
+        <div class="screen-1">
+            <div class="content-s1">
+                <div class="logo">
+                    <h1>Loop Earplugs</h1>
+                </div>
+                <div class="navigation">
+                    <ul>
+                        <li>Shop</li>
+                        <li>Shop</li>
+                        <li>Shop</li>
+                        <li>Shop</li>
+                        <li>Shop</li>
+                    </ul>
+                </div>
+                
+                <div class="contact">
+                    <div class="">Flag</div>
+                    <div class="">Account</div>
+                    <div class="">Cart</div>
+                </div>
+            </div>
+        </div>
+        <div class="screen-2">
+            <div class="content-s2">
+                <div>Ham</div>
+                <h1 class="logo">Loop Earplugs</h1>
+                <div class="contact">
+                    <div class="">Flag</div>
+                    <div class="">Account</div>
+                    <div class="">Cart</div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>

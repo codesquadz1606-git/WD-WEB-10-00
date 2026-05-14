@@ -1,0 +1,11 @@
+How we can create any responsive website?
+media query
+
+@media screen size
+
+Pages Breakpoints:
+>1440px : box1
+1280px to 1440px : box 2
+900px to 1280px : box3
+500px to 900px : box4
+<500px : all boxes.
