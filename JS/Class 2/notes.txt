@@ -1,0 +1,21 @@
+User-Input , Type Casting, Math Functions
+
+What is user-input?
+User-Input means that user gives an input at the time of program run.
+
+prompt() : It is by default an string type.
+
+Type-Casting : It means change the type of the variable.
+1. parseInt()
+2. parseFloat()
+
+What are the Math Functions?
+--> PI
+--> abs(absolute)
+--> random(0 to 1 random values)
+--> ceil
+--> floor
+--> min
+--> max
+
+Generate random number between 1 to 59
