@@ -1,0 +1,7 @@
+Operators : Operation b/w two or more operands.
+1. Arthmetic : +,-,*,/,%,**
+2. Relational : <,>,<=,>=,!=,==,===
+3. Logical : && , || , !
+4. Unary : ++ , --
+5. Assignment : =,+=,-=,*=,/=,%=,**=
+6. Ternary : Based on condition
