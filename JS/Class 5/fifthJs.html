@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        // 1 to 10
+        // for(let i=1;i<=10;i++){
+        //     console.log(i)
+        // }
+
+        // let i=1;
+        // while(i<=10){
+        //     if(i%2==0){
+        //         console.log(i)
+        //     }
+        //     i++;
+        // }
+
+    //    let i=1;
+    //    do{
+    //     console.log(i)
+    //     i+=2;
+    //    } while(i<=10);
+
+    // Array : It is a storage at continous memory location.
+
+    // let arr=[10,20,30.56,"Ayush",true,undefined]
+    // console.log(arr);
+
+    // Here we access data using zero based indexing.
+
+    // console.log(arr[5])
+
+    // for(let i=0;i<arr.length;i++){
+    //     console.log(arr[i])
+    // }
+
+    // push,pop,shift,unshift
+    // let arr=[1,2,3,4,5]
+    // arr.push(100) // add at the end of the array.
+    // arr.pop() // remove from the end of the array.
+    // arr.shift() // remove from the starting of the array.
+    // arr.unshift(200) // add at the starting of the array.
+    // console.log(arr)
+
+    // splice method
+    // splice(idx-start,no.of.delete,addelements)
+
+    // arr.splice(1,2,"Ayush","Shubham")
+    // arr.splice(1,2)
+    // arr.splice(1,0,"Ayush","Shubham")
+    // console.log(arr)
+
+    // Flatten the Array
+    let arr=[1,2,3,4,5,[6,7,8,[9]],[10,11,[12],13]];
+
+    function flatten(arr){
+        let result=[]; // empty array
+        for(let item of arr){
+            // console.log(item)
+            if(Array.isArray(item)){
+                const temp=flatten(item);
+                for(let value of temp){
+                    result.push(value)
+                }
+            }
+            else{
+                result.push(item)
+            }      
+        }
+        return result;
+    }
+
+    console.log(flatten(arr))
+
+
+    // output=[1,2,3,4,5,6,7,8,9,10,11,12,13]
+    </script>
+</body>
+</html>

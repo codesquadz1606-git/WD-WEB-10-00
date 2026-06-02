@@ -1,0 +1,25 @@
+Control Flow Statement : Loop
+Loop is iterable which iterate on a condition until it is true.
+
+: for Loop
+: while Loop
+: do-while Loop
+
+for loop syntax:
+for(start;stop;step){
+    code;
+}
+
+while loop syntax :
+start;
+while(stop){
+    code 
+    step;
+}
+
+do-while loop:
+start;
+do{
+    code;
+    step;
+}while(stop);
