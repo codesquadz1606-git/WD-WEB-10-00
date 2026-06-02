@@ -1,0 +1,18 @@
+Conditional Statement
+1. If-else
+    if is the staring Statement, here if can be used multiple times.
+    else is the ending Statement
+
+    Agar condition is true then if( block will be executed)
+    & if condition is false then else block will be executed.
+
+    else-if means additional condition.
+
+2. Switch-Case
+    switch(expression){
+        case :
+        case :
+        case :
+        case :
+        case :
+    }
