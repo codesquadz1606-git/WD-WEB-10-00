@@ -1,0 +1,8 @@
+slice(start,end) : end-1 tkk jaata h
+sort
+reverse
+concat
+indexOf
+includes
+
+Object : combination key Value pair.
