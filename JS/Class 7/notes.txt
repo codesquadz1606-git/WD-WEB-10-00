@@ -1,0 +1,28 @@
+Functions
+    It means a block of code that is executed when it is called.
+
+    Syntax:
+    function func_name(){
+
+    }
+
+    func_name()
+
+    Parameter & Argument Functions
+    function func_name(variable declare karna){ // parameter
+
+    }
+
+    func_name(value send karenga) // arguments
+
+    Returning Value function.
+
+    Function Expression.
+
+    Arrow function
+
+    Spread Operator & Rest Operator
+
+    Spread Operator : What is deep copy & shallow Copy?
+
+    Spread Operator means it copies the array without any reference.

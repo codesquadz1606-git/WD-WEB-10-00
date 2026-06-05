@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        // function greet(){ // define & declare
+        //     console.log("Hello Everyone");
+        // }
+
+        // greet() // call
+
+        // function sum(a,b){ // parameters
+        //     // console.log(a+b)
+
+        //     return a+b;
+        // }
+
+        // let num1=20;
+        // let num2=30;
+
+        // console.log(sum(num1,num2)) // argumants
+
+        // let product=function(a,b){
+        //     return a*b;
+        // }
+
+        // let sub=(a,b)=>{
+        //     return a-b
+        // }
+
+        // let arr=[10,20,30,40,50]
+        // // let newarr=arr; // this is refernce copy.
+
+        // let newarr=[...arr]; // copied but without any reference.
+
+        // newarr[2]=100;
+        // console.log(newarr)
+
+        // function sum(...args){
+        //     // console.log(args) // returns us an array.
+
+        //     let sum=0;
+        //     for(let i=0;i<args.length;i++){
+        //         sum+=args[i];
+        //     }
+
+        //     return sum;
+        // }
+
+
+        // shallow copy : It only copies the top level structure without any refernce, nested levels are copied on reference.
+        // let arr=[10,20,30,40,[50,60,70]];
+        // let newarr=[...arr]; 
+
+        // newarr[0]=100; // No issue
+        // newarr[4][0]=200 // Their is issue , because it is copied on the reference.
+
+        // Deep Copy : It means it is copied at all the levels without any reference.
+        // let newArr=JSON.parse(JSON.stringify(arr))
+        // newArr[4][0]=200
+        // console.log(newArr)
+
+
+        let oneArr=[1,2,3,4,5]
+        let twoArr=[6,7,8,9,10];
+
+        let combineArr=[...oneArr,...twoArr];
+        console.log(combineArr)
+    </script>
+</body>
+</html>
