@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .bg{
+        background-color: red;
+    }
+
+    .color{
+        color: blue;
+    }
+
+    .font{
+        font-size: 2rem;
+    }
+</style>
+<body>
+    <!-- <div id="unique">
+        hello
+    </div>
+
+    <div class="new">
+        This is class name
+    </div>
+    <div class="new">
+        This is class name
+    </div> -->
+
+    <p class="bg">
+        Hello Everyone
+    </p>
+
+    <script>
+        // DOM : Document Object Model
+        // HTML elements ko access karte h , edit karte h & create karte h.
+
+        // Method 1 : getElementById , getElementByClassName , getElementByTagName
+        // console.log(document) // It means my page.
+
+        // let id=document.getElementById("unique") // returns the single element.
+        // let className=document.getElementsByClassName("new") // returns the array
+        // let tag=document.getElementsByTagName("div")
+
+        // Method 2 : querySelector(#idname,,classname,tagname) : only returns the single element , querySelectorAll() : yeh ek array(nodelist) return kartaa h
+
+        // let id=document.querySelector("#unique")
+        // let id=document.querySelectorAll("#unique") // access all the same elements.
+
+        // text edit , attribute edit , classes edit 
+        // text edit : innerText , innerHtml
+
+        let para=document.querySelector("p");
+        // console.dir(para)
+        // para.innerText="My name is <b>Ayush</b>" // here tag is read as a text.
+        para.innerHTML="My name is <b>Ayush</b>" // here tag is read as a tag.
+
+        // Attribute edit : getAttribute & setAttribute
+        // console.log(para.getAttribute("style")) // this returns the value of a attribute.
+        // console.log(para.setAttribute("style","color:blue")) // this overlaps the previous property with the new property.
+        // para.setAttribute("class","color")
+
+        // class edit : add , remove, toggle, contains
+        // para.classList.add("color")
+        // para.classList.add("font")
+        // para.classList.remove("color") // false
+        // toggle is just like a switch 
+        // para.classList.toggle("color") // true
+        // para.classList.toggle("color") // false
+        // para.classList.toggle("color") // true
+        // console.log(para.classList.contains("color"))
+
+        // .style.propertName=value // inline css
+        // para.style.color="yellow"
+        // para.style.fontSize="3rem"
+        // para.style.padding="40px"
+
+        // Create : tag create karte h , body pa place kardetaa h
+        // for creating an element : createElement(tagname)
+        let h1=document.createElement("h1")
+        h1.innerText="Document Object Model"
+
+        // to place in the body : append(),prepend(),appendChild(),insertAdajcentEleemnt()
+        // document.querySelector("body").append(h1) // add at the end
+        // document.querySelector("body").prepend(h1) // add at the start
+        // document.querySelector("body").appendChild(h1) // same as append
+
+        // insertAdajcentElement : afterbegin,afterend,beforebegin,beforeend
+        // para.insertAdjacentElement("afterbegin",h1)
+        // para.insertAdjacentElement("afterend",h1)
+        // para.insertAdjacentElement("beforeend",h1)
+        // para.insertAdjacentElement("beforebegin",h1)
+
+
+        let arr=["Shubham","Aniket","Kusum","Mahi","Bhushan","Navesh","Harsh"]
+        let ul=document.createElement("ul")
+        for(let i=0;i<arr.length;i++){
+            let li=document.createElement("li")
+            li.innerText=arr[i]
+            ul.append(li)
+        }
+
+        document.querySelector("body").append(ul)
+        
+        
+
+    </script>
+</body>
+</html>
